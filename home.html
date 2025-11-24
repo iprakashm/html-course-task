@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML COURSE</title>
+    <title>HTML Course - Learn Web Development</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="cdn-favicon-512.png">
 
     <meta
       name="description"
@@ -24,66 +25,45 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="cyberdudenetworks.com" />
   </head>
+
   <body>
-    <div class="container">
-      <nav class="sidebar">
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo"><img src="cdn-favicon-512.png" alt=""></div>
         <ul class="nav-menu">
-          <li>
-            <a href="home.html"> Home </a>
-          </li>
-          <li>
-            <a href="course.html"> HTML Course </a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="course.html">HTML Course</a></li>
+          <li><a href="css-course.html">CSS Course</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
-      </nav>
+      </div>
+    </nav>
 
-      <main class="content">
-        <div class="content-card">
-          <h1>Learn HTML The Foundation of Web Development</h1>
-          <p>
-            HTML (HyperText Markup Language) was created in 1991 by Tim
-            Berners-Lee. <br />
-            It is the standard language used to build the structure of every
-            webpage on the internet.
-          </p>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Master HTML from Scratch</h1>
+        <p>Learn web development with our comprehensive HTML video course. Perfect for beginners!</p>
+        <a href="course.html" class="cta-button">Start Learning Now</a>
+      </div>
+    </section>
 
-          <div>
-            <div>
-              <h3>What HTML Does</h3>
-              <p>
-                Defines headings, paragraphs, images, links, layouts, and the
-                overall structure of a webpage.
-              </p>
-            </div>
-            <div>
-              <h3>Why It Matters</h3>
-              <p>
-                Every website—simple or complex—starts with HTML. It is the
-                first step for any web developer.
-              </p>
-            </div>
-            <div>
-              <h3>Easy to Learn</h3>
-              <p>
-                HTML is beginner-friendly and helps you quickly understand how
-                websites are built.
-              </p>
-            </div>
-            <div>
-              <h3>Start Learning Now</h3>
-              <p>
-                Click the button below to watch the complete HTML video course
-                and begin your journey.
-              </p>
-            </div>
-          </div>
 
-          <a href="course.html" class="learn-btn">Go to HTML Course →</a>
+    <section class="course-preview">
+      <div class="container-main">
+        <h2>What You'll Learn</h2>
+        <div class="topics-grid">
+          <div class="topic">HTML, CSS Basics & Structure</div>
+          <div class="topic">Text Formatting & Tags</div>
+          <div class="topic">Lists & Tables</div>
+          <div class="topic">Forms & Input Types</div>
+          <div class="topic">Images & Links</div>
+          <div class="topic">Semantic HTML</div>
         </div>
-      </main>
-    </div>
+        <div class="cta-center">
+          <a href="course.html" class="cta-button">View All Lessons</a>
+        </div>
+      </div>
+    </section>
+
   </body>
 </html>
